@@ -11,6 +11,9 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
 }
 
 p {
@@ -46,17 +49,8 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 /* main picture section */
-.hero {
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -85,7 +79,7 @@ header nav ul li {
 
 
 /* benefits section */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
